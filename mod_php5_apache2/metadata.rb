@@ -1,7 +1,9 @@
-name             'mod_php5_apache2'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
-license          'All rights reserved'
-description      'Installs/Configures mod_php5_apache2'
-long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.0'
+name        "mod_php5_apache2"
+description "Installs/Configures Apache with mod_php5"
+maintainer  "Custom Override CookBook" 
+license     "Apache 2.0"
+version     "1.0.0"
+
+depends "apache2"
+depends "deploy"
+
